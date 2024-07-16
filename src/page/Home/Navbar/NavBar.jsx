@@ -43,7 +43,7 @@ export const NavBar = () => {
             <SideBar/>
           </SheetContent>
         </Sheet>
-        <p className="text-sm lg:text-base cursor-pointer">Creypto Trade</p>
+        <p className="text-sm lg:text-base cursor-pointer">Crypto Trade</p>
         <div className="p-0 ml-9">
           <Button variant="outline" className="flex items-center gap-3">
             <MagnifyingGlassIcon/>
