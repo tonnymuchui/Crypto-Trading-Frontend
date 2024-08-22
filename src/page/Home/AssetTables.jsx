@@ -10,7 +10,9 @@ import {
   } from "@/components/ui/table"
   import { Avatar } from "@/components/ui/avatar";
   import { AvatarImage } from "@radix-ui/react-avatar";  
+import { useNavigate } from 'react-router-dom';
 export const AssetTables = () => {
+  const navigate = useNavigate();
   return (
     <Table>
     <TableCaption>A list of your recent Crypocarrency.</TableCaption>
@@ -27,7 +29,7 @@ export const AssetTables = () => {
     <TableBody>
         {[1,1,1,1,1,1,1,1,1,1].map((item, index) => 
       <TableRow key={index}>
-        <TableCell className="font-medium flex items-center gap-2">
+        <TableCell onClick={() => navigate(`/stock/bitcoin`)} className="font-medium flex items-center gap-2">
             <Avatar>
                 <AvatarImage src="https://cdn.pixabay.com/photo/2017/03/12/02/57/bitcoin-2136339_1280.png" />
             </Avatar>
