@@ -1,0 +1,11 @@
+.authContainer {
+  background-image: url('https://cdn.pixabay.com/photo/2024/06/18/03/40/finance-8836902_1280.jpg');
+  height: 100hv;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bgBlure {
+    backdrop-filter: blur(30px);
+}
