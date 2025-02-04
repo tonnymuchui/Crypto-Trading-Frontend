@@ -55,7 +55,7 @@ console.log("---------- ",auth.error)
          <CustomeToast show={auth.error} message={auth.error?.error}/>
      
 
-        <h1 className="text-6xl font-bold pb-9">Zosh Trading</h1>
+        <h1 className="text-6xl font-bold pb-9">Trading Wallet</h1>
         {/* <Avatar>
           <AvatarImage src="https://cdn.pixabay.com/photo/2019/04/15/20/42/bitcoin-4130299_1280.png"/>
           <AvatarFallback>BTC</AvatarFallback>
