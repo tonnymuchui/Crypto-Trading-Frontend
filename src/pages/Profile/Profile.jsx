@@ -42,25 +42,25 @@ const Profile = () => {
                 </div>
                 <div className="flex">
                   <p className="w-[9rem]">Full Name : </p>
-                  <p className="text-gray-500">{"code with zosh"} </p>
+                  <p className="text-gray-500">{"Tonny"} </p>
                 </div>
                 <div className="flex">
                   <p className="w-[9rem]">Date Of Birth : </p>
-                  <p className="text-gray-500">{"25/09/2000"} </p>
+                  <p className="text-gray-500">{"01/01/2000"} </p>
                 </div>
                 <div className="flex">
                   <p className="w-[9rem]">Nationality : </p>
-                  <p className="text-gray-500">{"indian"} </p>
+                  <p className="text-gray-500">{"Kenyan"} </p>
                 </div>
               </div>
               <div className="space-y-7">
                 <div className="flex">
                   <p className="w-[9rem]">Address : </p>
-                  <p className="text-gray-500">{"code with zosh"} </p>
+                  <p className="text-gray-500">{"Tonny"} </p>
                 </div>
                 <div className="flex">
                   <p className="w-[9rem]">City : </p>
-                  <p className="text-gray-500">{"mumbai"} </p>
+                  <p className="text-gray-500">{"Kenya"} </p>
                 </div>
                 <div className="flex">
                   <p className="w-[9rem]">Postcode : </p>
@@ -68,7 +68,7 @@ const Profile = () => {
                 </div>
                 <div className="flex">
                   <p className="w-[9rem]">Country : </p>
-                  <p className="text-gray-500">{"india"} </p>
+                  <p className="text-gray-500">{"Kenya"} </p>
                 </div>
               </div>
             </div>
